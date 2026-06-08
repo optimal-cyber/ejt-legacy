@@ -178,6 +178,7 @@ p { color: var(--ink-soft); }
 .nav__tel { font-family: var(--ff-caps); font-weight: 700; font-size: .78rem; letter-spacing: .08em; color: var(--ink); white-space: nowrap; }
 .nav__tel span { color: var(--brass-deep); }
 .nav__cta { padding: .7rem 1.25rem; }
+.nav__drawer { display: none; }  /* hidden on desktop; revealed as a drawer in the mobile media query */
 .nav__toggle { display: none; width: 44px; height: 44px; border: 1px solid var(--line); background: transparent; border-radius: var(--radius); position: relative; }
 .nav__toggle span, .nav__toggle span::before, .nav__toggle span::after {
   content: ""; position: absolute; left: 50%; top: 50%; width: 20px; height: 1.5px; background: var(--ink);
@@ -268,6 +269,7 @@ body.nav-open .nav__toggle span::after  { transform: translate(-50%,-50%) rotate
 /* feature tiles for an asymmetric, editorial layout that still tiles cleanly into 12 cols */
 .gallery__item--feature { grid-column: span 6; grid-row: span 2; }
 .gallery__item--half { grid-column: span 6; }
+.gallery__item--port { grid-column: span 4; grid-row: span 2; }   /* portrait interior shots */
 .gallery__item.is-hidden { display: none; }
 .gallery__item img { width: 100%; height: 100%; object-fit: cover; transition: transform .6s var(--ease); }
 .gallery__item:hover img { transform: scale(1.05); }
@@ -491,6 +493,7 @@ body.nav-open .nav__toggle span::after  { transform: translate(-50%,-50%) rotate
   .gallery { grid-auto-rows: 200px; }
   .gallery__item, .gallery__item--half { grid-column: span 6; }
   .gallery__item--feature { grid-column: span 6; grid-row: span 2; }
+  .gallery__item--port { grid-column: span 6; grid-row: span 2; }
 }
 @media (max-width: 560px) {
   body { font-size: 16px; }
@@ -503,6 +506,7 @@ body.nav-open .nav__toggle span::after  { transform: translate(-50%,-50%) rotate
   .area__list { grid-template-columns: 1fr; }
   .gallery { grid-template-columns: 1fr; grid-auto-rows: 240px; }
   .gallery__item, .gallery__item--half, .gallery__item--feature { grid-column: 1 / -1; grid-row: span 1; }
+  .gallery__item--port { grid-column: 1 / -1; grid-row: span 2; }
   .hero__scroll { display: none; }
 }
 
