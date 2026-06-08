@@ -1,0 +1,21 @@
+{
+  "name": "Ejt Legacy Homes",
+  "short_name": "Ejt Legacy",
+  "description": "Custom home builder and general contractor building forever homes to last.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#F6F2E9",
+  "theme_color": "#161513",
+  "icons": [
+    {
+      "src": "/assets/icons/favicon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml"
+    },
+    {
+      "src": "/assets/icons/apple-touch-icon.png",
+      "sizes": "180x180",
+      "type": "image/png"
+    }
+  ]
+}

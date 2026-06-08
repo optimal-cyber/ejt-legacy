@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 900" preserveAspectRatio="xMidYMid slice" role="img" aria-label="Placeholder — replace with a real photo: Custom Chef's Kitchen — Interior">
+  <rect width="1200" height="900" fill="#2A2620"/>
+  <rect x="14" y="14" width="1172" height="872" fill="none" stroke="#9A7B4A" stroke-width="1.5" opacity="0.7"/>
+  <g transform="translate(600 420)" stroke="#9A7B4A" stroke-width="3.5" fill="none" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M-44 6 L0 -34 L44 6"/>
+    <path d="M-28 6 V42 H28 V6" stroke="#C9BFA8"/>
+    <rect x="-7" y="20" width="14" height="22" rx="1.5" fill="#C9BFA8" stroke="none"/>
+  </g>
+  <text x="50%" y="500" text-anchor="middle" font-family="Georgia, serif" font-size="26" letter-spacing="4" fill="#F0E9DA">REPLACE ME</text>
+  <text x="50%" y="534" text-anchor="middle" font-family="Arial, sans-serif" font-size="17" letter-spacing="1" fill="#C9BFA8">Custom Chef's Kitchen — Interior</text>
+</svg>
